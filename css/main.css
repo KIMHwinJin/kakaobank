@@ -1,0 +1,856 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 12px;
+    color: #000;
+    line-height: 1.5;
+}
+
+.devide {
+    width: 100%;
+    height: 30px;
+    background-color: #f6f6f6;
+    margin-top: 20px;
+}
+
+/* 메뉴바 */
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(228, 227, 227);
+}
+
+.header .menubar {
+    width: 1060px;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.header .menubar .left {
+    width: 471px;
+    height: 90px;
+}
+
+.header .menubar .left .logo img {
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.header .menubar .right {
+    position: relative;
+    font-size: 15px;
+    width: 589px;
+    height: 90px;
+}
+
+.header .menubar .right .nav {
+    width: 589px;
+    /* height: 90px; */
+    display: flex;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .menubar .right .nav li a button {
+    width: 124px;
+    height: 46px;
+    background-color: #fede22;
+    border-radius: 20px;
+    border: none;
+}
+
+/* 메뉴바 끝 */
+
+/* 메인 이미지 */
+/* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+
+.main {
+    background-color: #ffef6b;
+    width: 100%;
+    height: 720px;
+}
+
+.main .bg {
+    background-image: url('../images/rion.png');
+    height: 884px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main .main_text {
+    position: absolute;
+    top: 148px;
+    left: 80px;
+}
+
+.main .main_text h2 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+.main .main_text p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.95;
+    opacity: 0.7;
+}
+
+.main .main_text .p1 {
+    margin: 20px 0;
+}
+
+.main .main_text .buttons {
+    display: flex;
+}
+
+.main .main_text .buttons li a {
+    display: flex;
+    width: 180px;
+    height: 58px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.main .main_text .buttons li a {
+    margin-right: 8px;
+    margin-top: 64px;
+}
+
+.main .main_text .buttons li a img {
+    width: 24px;
+    height: 24px;
+    padding-right: 2px;
+}
+
+.main .main_text .buttons li a p {
+    font-weight: 800;
+}
+
+/* 메인 끝 */
+
+/* 계좌개설,간편이체  */
+.create {
+    width: 985px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 156px;
+}
+
+.create .left {
+}
+
+.create .left .image {
+    width: 568px;
+}
+
+.create .left .image img {
+    width: 473px;
+    height: 678px;
+}
+
+.create .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.create .right .create_text h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.create .right .create_text p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 35px;
+    line-height: 1.7;
+    color: #666;
+}
+
+.right .button {
+}
+
+.create .right .button button {
+    position: absolute;
+    top: 450px;
+    left: 0;
+    width: 258px;
+    height: 56px;
+    border: none;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 계좌계설,간편이체 끝 */
+
+/* 예적금 */
+.save {
+    width: 985px;
+    height: 750px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.save .right {
+    width: 408px;
+    height: 750px;
+    position: relative;
+}
+
+.save .right img {
+    width: 408px;
+    height: 772px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.save .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 46px; */
+    position: relative;
+    width: 577px;
+    height: 750px;
+}
+
+.save .left .text {
+}
+
+.save .left .text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 174px;
+    left: 20px;
+}
+
+.save .left .text p {
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    top: 306px;
+    left: 20px;
+    line-height: 1.7;
+    color: #666;
+}
+
+.save .left .save_buttons {
+    position: absolute;
+    top: 390px;
+    left: 20px;
+}
+
+.save .left .save_buttons button {
+    width: 158px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.save .left img {
+    position: absolute;
+    top: 492px;
+    left: 20px;
+    width: 450px;
+    height: 105px;
+}
+
+/* 예금적금 끝 */
+
+/* 모임통장 */
+.gather {
+    width: 985px;
+    height: 750px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.gather .left {
+    width: 568px;
+    height: 750px;
+    position: relative;
+}
+
+.gather .left img {
+    width: 400px;
+    height: 520px;
+    position: absolute;
+    top: 130px;
+    left: 0;
+}
+
+.gather .right {
+    width: 417px;
+    height: 750px;
+    position: relative;
+}
+
+.gather .right .text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 220px;
+    left: 0px;
+    line-height: 1.2;
+}
+
+.gather .right .text p {
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    line-height: 1.7;
+    color: #666;
+}
+
+.gather .right .button button {
+    width: 285px;
+    height: 56px;
+
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 454px;
+    left: 0;
+    cursor: pointer;
+}
+
+/* 모임통장 끝 */
+
+/* 26주 적금 */
+.week {
+    width: 985px;
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.week .right {
+    width: 611px;
+    height: 650px;
+    position: relative;
+}
+
+.week .right img {
+    width: 434px;
+    height: 422px;
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+
+.week .left {
+    width: 374px;
+    height: 650px;
+    position: relative;
+}
+
+.week .left .text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 184px;
+    left: 68px;
+}
+
+.week .left .text p {
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    top: 312px;
+    left: 68px;
+    line-height: 1.7;
+    color: #666;
+}
+
+.week .left .button button {
+    position: absolute;
+    top: 394px;
+    left: 68px;
+    width: 258px;
+    height: 54px;
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* 26주 적금 끝 */
+
+/* 해외송금 */
+.aboard {
+    height: 750px;
+    background-image: url('../images/map.png');
+    background-repeat: no-repeat;
+    background-position: -5% 50%;
+}
+
+.aboard .content {
+    width: 985px;
+    height: 750px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.aboard .content .left {
+    width: 570px;
+    height: 750px;
+    position: relative;
+}
+
+.aboard .content .left img {
+    width: 400px;
+    height: 708px;
+    position: absolute;
+    margin-top: 21px;
+}
+
+.aboard .content .right {
+    width: 415px;
+    height: 750px;
+    position: relative;
+}
+
+.aboard .content .right .text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 204px;
+    left: 0px;
+    line-height: 1.35;
+}
+
+.aboard .content .right .text p {
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    top: 387px;
+    left: 0px;
+    line-height: 1.7;
+    color: #666;
+}
+
+.aboard .content .right .button button {
+    position: relative;
+    top: 490px;
+    left: 0;
+    font-size: 16px;
+    width: 258px;
+    height: 56px;
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* 서류 */
+.document {
+    width: 100%;
+    height: 930px;
+    background-color: #333b58;
+}
+
+.document .bg_2 {
+    width: 1040px;
+    height: 930px;
+    background-image: url('../images/bg2.jpg');
+    margin: 0 auto;
+}
+
+.document .top {
+    height: 340px;
+    width: 985px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.document .top .text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 130px;
+    left: 62px;
+    color: #fff;
+}
+
+.document .top .text p {
+    font-size: 15px;
+    opacity: 60%;
+    color: #fff;
+    position: absolute;
+    top: 224px;
+    left: 244px;
+}
+
+.document .top .buttons {
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+
+    padding-top: 286px;
+}
+
+.document .top .buttons li a button {
+    width: 166px;
+    height: 52px;
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    line-height: 51px;
+    text-align: center;
+    color: #fff;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.document .bottom {
+    height: 590px;
+    width: 985px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.document .bottom img {
+    width: 308px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+}
+
+/* 서류 끝 */
+
+/* 카드 */
+.card {
+    width: 1002px;
+    height: 1062px;
+    margin: 0 auto;
+}
+
+.card .top {
+    width: 985px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card .top .text {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 985px;
+}
+
+.card .top .text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.35;
+    text-align: center;
+}
+
+.card .top .text .top_text {
+    text-align: center;
+}
+
+.card .top .text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #666;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+.card .top .button button {
+    width: 258px;
+    height: 56px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+}
+
+.card .bottom {
+    width: 1002px;
+    height: 662px;
+}
+
+.card .bottom .images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 106px;
+}
+
+.card .bottom .images .slide_1 {
+    width: 38px;
+    height: 74px;
+    margin-top: 144px;
+}
+
+.card .bottom .images .slide_2 {
+    width: 38px;
+    height: 74px;
+    margin-top: 144px;
+}
+
+.card .bottom .images .center_images {
+    width: 564px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .bottom .images .center_images .center {
+    width: 280px;
+    height: 440px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.card .bottom .images .center_images .side {
+    width: 240px;
+    height: 378px;
+    margin-bottom: 33px;
+}
+/* 카드 끝 */
+
+/* it기술 */
+.tec {
+    height: 1054px;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+}
+
+.tec .top h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.35;
+    text-align: center;
+    padding-top: 160px;
+}
+
+.tec .top .line {
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    margin: 50px auto 140px;
+}
+
+.tec .bottom {
+    width: 1020px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tec .bottom img {
+    width: 1020px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tec .bottom ul {
+    display: flex;
+    text-align: center;
+    margin-top: 58px;
+    margin-left: 40px;
+}
+
+.tec .bottom ul li h3 {
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 26px;
+}
+
+.tec .bottom ul li p {
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+}
+
+.tec .bottom ul .l_01 {
+    padding-right: 62px;
+}
+
+.tec .bottom ul .l_02 {
+    padding-right: 310px;
+}
+/* /it 기술 끝 */
+
+/* .footer */
+.footer {
+    height: 196px;
+    width: 100%;
+    background-color: #eee;
+}
+
+.footer .content {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.footer .content .list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0 16px;
+}
+
+.footer ul li {
+    font-size: 11px;
+    padding: 4px 0;
+    color: #666;
+}
+
+.footer ul li a {
+    letter-spacing: 1.3px;
+}
+
+.footer ul li .a_01,
+.a_02,
+.a_03,
+.a_04 {
+    font-weight: 800;
+    color: #000;
+}
+
+.footer ul li .txt_bar {
+    float: left;
+    width: 1px;
+    height: 10px;
+    margin: 8px 15px 0;
+    background-color: #d8d8d8;
+    margin: 8px 15px 0;
+}
+
+.footer .content .detail .tel {
+    color: #888;
+}
+
+.footer .content .detail span {
+    color: #000;
+}
+
+.footer .content .detail .copyright {
+    font-size: 11px;
+    font-weight: 800;
+    color: #888;
+}
+
+.footer .end {
+    height: 71px;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .end .access {
+    display: flex;
+}
+
+.footer .end .access li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .end .access .li_01 {
+    margin-right: 24px;
+}
+
+.footer .end .access li .img_01 {
+    width: 48px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.footer .end .access li .img_02 {
+    width: 42px;
+    height: 41px;
+    margin-right: 10px;
+}
+
+.footer .end .icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer .end .icons .face {
+    width: 12px;
+    height: 20px;
+    margin-right: 18px;
+    color: #939393;
+}
+
+.footer .end .icons .ins {
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+    color: #939393;
+}
+
+.footer .end .icons .you {
+    width: 23px;
+    height: 18px;
+    margin-right: 8px;
+    /* background-color: #939393; */
+}
+/* footer 끝 */
