@@ -191,6 +191,7 @@ body {
 .create .right .create_text h2 {
     font-size: 40px;
     font-weight: 700;
+    line-height: 1.35;
 }
 
 .create .right .create_text p {
@@ -263,6 +264,7 @@ body {
     position: absolute;
     top: 174px;
     left: 20px;
+    line-height: 1.35;
 }
 
 .save .left .text p {
@@ -335,7 +337,7 @@ body {
     position: absolute;
     top: 220px;
     left: 0px;
-    line-height: 1.2;
+    line-height: 1.35;
 }
 
 .gather .right .text p {
@@ -396,7 +398,8 @@ body {
     font-weight: 700;
     position: absolute;
     top: 184px;
-    left: 68px;
+    left: 50px;
+    line-height: 1.35;
 }
 
 .week .left .text p {
@@ -404,7 +407,7 @@ body {
     font-weight: 400;
     position: absolute;
     top: 312px;
-    left: 68px;
+    left: 50px;
     line-height: 1.7;
     color: #666;
 }
@@ -412,7 +415,7 @@ body {
 .week .left .button button {
     position: absolute;
     top: 394px;
-    left: 68px;
+    left: 50px;
     width: 258px;
     height: 54px;
     background-color: #f6f6f6;
